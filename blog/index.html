@@ -1,0 +1,29 @@
+---
+layout: default
+title: "Blog"
+description: "Short updates: training, progress, ideas, experiments."
+---
+
+<section class="panel panel--overview">
+  <h1 class="section-title">Journal</h1>
+
+  <div class="home-grid">
+    {% for post in site.posts %}
+      <article class="home-card">
+        <h3>{{ post.title }}</h3>
+
+        <p class="muted">
+          {{ post.excerpt | strip_html | truncate: 180 }}
+        </p>
+
+        <p class="muted" style="font-size:0.8rem; margin:0.25rem 0 0.75rem;">
+          {{ post.date | date: "%B %d, %Y" }}
+        </p>
+
+        <a class="home-card-link" href="{{ post.url | relative_url }}">
+          Read entry →
+        </a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
