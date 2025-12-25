@@ -4,27 +4,12 @@
 
 @font-face {
   font-family: "Fire Fight BB";
-  src: url("/assets/fonts/firefightbb-regular.ttf") format("truetype");
+  src: url("../fonts/firefightbb-regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-@font-face {
-  font-family: "Inter";
-  src: url("/assets/fonts/inter-regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("/assets/fonts/inter-medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
 
 /* =========================
    Colour tokens (logo only)

@@ -1,19 +1,13 @@
 title: "Warehouse Manifesto"
 description: "Independent electronic music label. Techno and electro. Vinyl focused."
-baseurl: "" # leave empty for GitHub Pages with custom domain
-url: "https://warehousemanifesto.com"
+baseurl: "/warehousemanifesto.com"
+url: "https://mechmadhog.github.io"
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
 
-# Optional. Keep only if you are using /blog pages and pagination now.
-# If you are not using /blog yet, remove jekyll-paginate and these settings.
-# paginate: 5
-# paginate_path: "/blog/page:num"
-
-# If you want posts, keep the permalink simple and brand-appropriate.
 permalink: /posts/:title/
 
 defaults:
