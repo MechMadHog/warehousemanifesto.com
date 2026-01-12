@@ -1,8 +1,10 @@
 # Warehouse Manifesto
 
-Official website repository for the **Warehouse Manifesto** music label.
+This will be the official website repository for the **Warehouse Manifesto** music label.
 
 This repository contains the source code and assets for the public Warehouse Manifesto site, built as a lightweight static site and deployed via GitHub Pages.
+
+This is my second web piece for a specific niche, this being music.
 
 ---
 
