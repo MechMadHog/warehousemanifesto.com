@@ -1,38 +1,50 @@
-# Warehouse Manifesto
+# 🎧 Warehouse Manifesto
 
-This will be the official website repository for the **Warehouse Manifesto** music label.
+This repository contains the website for the **Warehouse Manifesto** music project.
 
-This repository contains the source code and assets for the public Warehouse Manifesto site, built as a lightweight static site and deployed via GitHub Pages.
-
-This is my second web piece for a specific niche, this being music.
-
----
-
-## Purpose
-
-- Act as the central online home for the Warehouse Manifesto label  
-- Link out to releases, mixes, podcasts, and affiliated projects  
-- Provide a stable, minimal web presence that can grow over time  
-
-The site is intentionally simple and focused. It is not a content platform, blog engine, or CMS-heavy build.
+The site exists to support the work, not to compete with it.
+It is a place to point people to, not a place to keep them.
 
 ---
 
-## Tech Overview
+## What This Site Is
 
-- HTML / CSS / JavaScript  
-- Jekyll (GitHub Pages native)  
-- GitHub Pages for hosting  
+- A simple online home for the project  
+- A place to share releases, visuals, and basic information  
+- A stable point of reference
 
-No build tooling is required beyond what GitHub Pages provides.
+The focus is on staying online and staying out of the way.
 
 ---
 
-## Deployment
+## What This Site Is Not
 
-The site is deployed automatically using **GitHub Pages**.
+- A content platform  
+- A social feed  
+- A design showcase  
 
-### Current setup
-- Branch: `main`
-- Source: repository root
-- URL (GitHub Pages):
+If someone wants more, they can find it through the music.
+
+---
+
+## Standard
+
+This site prioritises:
+- stability  
+- simplicity  
+- low maintenance ⚙️  
+
+Everything else is secondary.
+
+---
+
+## Technical Notes
+
+- Static site  
+- Deployed via GitHub Pages  
+- No build step unless required  
+- Custom domain with a simple CNAME  
+
+The site should require almost no attention.
+
+That is the goal.
